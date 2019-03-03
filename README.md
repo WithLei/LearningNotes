@@ -197,8 +197,3 @@
     * [网易杭研](https://github.com/GeniusVJR/LearningNotes/blob/master/Part6/InterviewExperience/网易杭研.md)
 
 ---
-
-* [Resume(简历)](https://zhuanlan.zhihu.com/p/20672941)
-
-
----
