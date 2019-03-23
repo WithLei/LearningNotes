@@ -1,12 +1,12 @@
-#ListView详解
+# ListView详解  
 ---
-直接继承自AbsListView，AbsListView继承自AdapterView，AdapterView又继承自ViewGroup。
+直接继承自AbsListView，AbsListView继承自AdapterView，AdapterView又继承自ViewGroup。  
 
-Adpater在ListView和数据源之间起到了一个桥梁的作用
+Adpater在ListView和数据源之间起到了一个桥梁的作用  
 
-###RecycleBin机制
+### RecycleBin机制  
 
-RecycleBin机制是ListView能够实现成百上千条数据都不会OOM最重要的一个原因。RecycleBin是AbsListView的一个内部类。
+RecycleBin机制是ListView能够实现成百上千条数据都不会OOM最重要的一个原因。RecycleBin是AbsListView的一个内部类。  
 
 * RecycleBin当中使用mActiveViews这个数组来存储View，调用这个方法后就会根据传入的参数来将ListView中的指定元素存储到mActiveViews中。
 * mActiveViews当中所存储的View，一旦被获取了之后就会从mActiveViews当中移除，下次获取同样位置的时候将会返回null，所以mActiveViews不能被重复利用。
