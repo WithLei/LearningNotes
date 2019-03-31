@@ -1,8 +1,6 @@
-#J2SE
----
+# J2SE  
 
-##基础
----
+## 基础  
 **八种基本数据类型的大小，以及他们的封装类。**
 
 八种基本数据类型，int ,double ,long ,float, short,byte,character,boolean
@@ -456,7 +454,7 @@ JAVA反射机制是在运行状态中, 对于任意一个类, 都能够知道这
 
 ---
 
-###集合
+### 集合  
 
 **ArrayList、LinkedList、Vector的底层实现和区别**
 
